@@ -1,0 +1,92 @@
+Left column:
+
+    No images– the left column is used for navigation.
+
+Main body:
+
+    Wide slide carousel and Regular slide carousel (Drupal) true dimensions: 892px x 408px (Drupal resizes for smaller carousel)
+    Super-wide image (Drupal): 900px wide [MAX]
+    Wide image: 600px wide [MAX]
+    Images floated in main body with wrapped text: 150px – 300px wide
+    Thumbnails: 100px square
+    Headshots used for staff directories, etc:  220px square
+
+Right Column:
+
+    250px – 300 px wide
+
+	
+-----
+Wordpress
+	1280 max width
+		600 large
+		300 medium
+		150 thumb
+	"full page" 80-100k
+	"half width" 20-30k
+
+
+HOME PAGE
+
+--------------------------------------------------------------------------------	
+                |                           |           |                       
+	logo		| Website name				|	Search	| tagline 												
+				|							|			|						
+--------------------------------------------------------------------------------	
+Professional | Projects | 
+--------------------------------------------------------------------------------	
+
+About me.                                [picture?]
+Reason for posting
+
+
+
+--------------------------------------------------------------------------------	
+Contact															| 	Copyright				
+--------------------------------------------------------------------------------	
+
+
+
+
+
+
+SKELETON PAGE
+--------------------------------------------------------------------------------	
+                |                           |           |                       
+	logo		| Website name				|	Search	| tagline 												
+				|							|			|						
+--------------------------------------------------------------------------------	
+Professional | Projects | 
+--------------------------------------------------------------------------------	
+Nav1	(fixed) |	Logo >> breadcrumb >> breadcrumb>>															
+Nav1			|---------------------------------------------------------------																
+Nav1			|	Page title															
+Nav1			|	Page subtitle and date															
+Nav1			|																
+				|		content 									[Pictures]						
+				|																
+				|																
+				|																
+				|																
+				|																
+				|---------------------------------------------------------------																
+				|	Logo >> breadcrumb >> breadcrumb>>																													
+--------------------------------------------------------------------------------	
+Contact															| 	Copyright				
+--------------------------------------------------------------------------------	
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
