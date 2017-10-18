@@ -1,4 +1,20 @@
 /*
+	Document
+*/
+html 
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body 
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+/*
 	Header
 */
 .header
@@ -106,6 +122,29 @@
 }
 
 /*
+	Search bar
+*/
+.search
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 9pt;
+	height: 15px;
+	
+    overflow: hidden;
+	background: #333; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#444, #212); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#444, #212); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#444, #212); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#444, #212); /* Standard syntax */
+	color: white;
+	text-decoration: none;
+	margin: 0;
+    padding: 2px 16px;
+	text-align: right;
+    display: block;
+}
+
+/*
 	Vertical navigation tabs
 */
 .navigationTab
@@ -167,6 +206,7 @@
 
 .bodyCenter
 {
+	font-family: 'Open Sans', sans-serif;
 	padding-left: 3em;
 	display: block;
 	background: white;
@@ -270,8 +310,3 @@
 }
 
 
-.search
-{
-	display: block;
-	float: clear;
-}
