@@ -1,8 +1,10 @@
-﻿
+﻿Test credentials
+
 Notes:
 Why use template?  Why not copy & repurpose?
 Need tool to copy html tags by classnames
 Keep classnames separated for different types of pages
+
 
 Start tools
 	Create breadcrumbs
