@@ -1,3 +1,40 @@
+﻿
+Notes:
+Why use template?  Why not copy & repurpose?
+Need tool to copy html tags by classnames
+Keep classnames separated for different types of pages
+
+Start tools
+	Create breadcrumbs
+	Copy tag by classname
+
+	
+Expected process:
+	pictures out of phone
+	Sort pictures into folders
+	Upload pictures to Google photos albums
+	Create project folder in website
+	Copy HTML page
+	rename page
+	Update breadcrumb
+	Create images folder
+	Copy images to images folder
+	Write copy with images
+	Add link to photo album
+	Copy thumbnail (and mouseover image) to parent images folder
+	Create link on parent year page 
+	git add, git commit, git push
+	
+
+test in 
+	Internet Explorer
+    Opera
+    Firefox
+    Safari
+    Chrome
+----------------------------------------------------------------------------------------------------
+Design:
+
 Left column:
 
     No images– the left column is used for navigation.
@@ -82,7 +119,47 @@ Contact															| 	Copyright
 																				
 																				
 																				
-																				
+----------------------------------------------------------------------------------------------------
+404 ideas
+
+	GIF/image with custom text
+
+	CNC wood vcarve
+	CNC metal
+	cnc plastic
+	vinyl cutter
+	etch glass
+	Foundry aluminum
+	3D printing
+	solar burning
+	cloak image
+	on sweatshirt
+	beer bottle label
+	bottlecaps
+	Atari2600 star castle
+	Atari ID
+	Expert video - ?
+	solderless breadboard circuit
+	laser light show
+	spinning head
+	coin op video game screen
+	little LED projector screen
+	microscope on phone if I can find 404
+	Laser cutter - bacon, paper, tile
+	etch pcb
+	Lenticular 404 - file - not found
+	spray paint stencil
+	Pet pics with funny captions
+	404 in pi at 1272 http://www.angio.net/pi/  19990 111405
+	cast a part in plaster in hot glue mold on 3D printed form
+	white crayon on paper, water color around it time lapse
+	mailbox picture
+	digital clock - stove not found, microwave not found
+	Ink jet print screen capture and melt in water (no color printers any more lol)
+	404 LOL animation
+
+
+																		
 																				
 																				
 																				
