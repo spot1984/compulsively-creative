@@ -78,6 +78,19 @@ body
 /*
 	Horizontal navigation bar
 */
+.navi
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 9pt;
+	background: #333; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#444, #212); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#444, #212); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#444, #212); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#444, #212); /* Standard syntax */
+	color: white;
+
+}
+
 .navigation 
 {
 	padding: 0px;
@@ -88,17 +101,13 @@ body
 	float: left;
 }
 
+
 .navigation ul
 {
 	list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-	background: #333; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#444, #212); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#444, #212); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#444, #212); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#444, #212); /* Standard syntax */
 	float: left;
 }
 
@@ -110,11 +119,12 @@ body
 .navigation a 
 {
 	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: white;
     display: block;
-    color: white;
-    text-align: center;
+	text-align: center;
     padding: 2px 16px;
-    text-decoration: none;
+    
 }
 
 .navigation a:hover {
@@ -126,17 +136,9 @@ body
 */
 .search
 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 9pt;
 	height: 15px;
 	
     overflow: hidden;
-	background: #333; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#444, #212); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#444, #212); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#444, #212); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#444, #212); /* Standard syntax */
-	color: white;
 	text-decoration: none;
 	margin: 0;
     padding: 2px 16px;
@@ -234,17 +236,17 @@ body
 
 /*
 	Footer
-*/
-.footer 
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 8pt;
 	color: #ddd;
 	background: #21102C;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 8pt;
+	*/
+.footer 
+{
 	width: 100%;
 	margin: 0px;
 	border: 0px;
-	padding: 0px;
+	
 	overflow-x: hidden;
 	overflow-y: hidden;
 	display: block;
@@ -253,24 +255,49 @@ body
 
 .footerLeft
 {
+	padding: 2px 16px;
+	text-decoration: none;
+	color: white;
 	margin-left: 3em;
 	display: block;
 	float:left
 }
 
+.footerLeft a{
+	text-decoration: none;
+	color: white;
+}
+.footerLeft:hover
+{
+	background-color: #111;
+}
+
+
 .footerCenter
 {
+	padding: 2px 16px;
 	margin-left: 3em;
 	display: block;
 	float: left;
+	color: white;
 }
 
 .footerRight
 {
+	padding: 2px 16px;
 	margin-right: 3em;
 	margin-left: 3em;
 	display: block;
 	float: right;
+}
+
+.footerRight a{
+	text-decoration: none;
+	color: white;
+}
+.footerRight:hover
+{
+	background-color: #111;
 }
 
 /*
