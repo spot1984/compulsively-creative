@@ -78,7 +78,7 @@ body
 /*
 	Horizontal navigation bar
 */
-.navi
+.topNavStyle
 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
@@ -88,20 +88,19 @@ body
     background: -moz-linear-gradient(#444, #212); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#444, #212); /* Standard syntax */
 	color: white;
-
 }
 
-.navigation 
+.topNav 
 {
 	margin: 0px;
 	border:0px;
-	padding: 3px;
+	padding: 0px;
 	width: 100%;
 	display: block;
 	float: left;
 }
 
-.navigation ul
+.topNav ul
 {
 	list-style-type: none;
     margin: 0;
@@ -110,22 +109,22 @@ body
 	float: left;
 }
 
-.navigation li {
+.topNav li {
 	font-size: 12pt;
 	float: left;
 }
 
-.navigation a 
+.topNav a 
 {
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
 	color: white;
     display: block;
 	text-align: center;
-    padding: 2px 16px;
+    padding: 3px 16px;
 }
 
-.navigation a:hover {
+.topNav a:hover {
     background-color: #111;
 }
 
@@ -136,7 +135,7 @@ body
 {
     overflow: hidden;
 	text-decoration: none;
-    padding: 0px 16px;
+    padding: 3px 16px 3px 0px;
 	border: 0px;
 	margin: 0px;
 	text-align: right;
@@ -178,7 +177,7 @@ body
 }
 
 .bodyLeft li a.active {
-    background-color: #4CAF50;
+    background-color: #21102C;
     color: white;
 }
 
@@ -189,12 +188,12 @@ body
 /*
 	Vertical navigation tabs
 */
-.navigationTab
+.leftNav
 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.navigationTab a
+.leftNav a
 {
 	text-decoration: none;
 }
