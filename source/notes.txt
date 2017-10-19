@@ -4,11 +4,6 @@ Todo
 	rename sidenav
 	topnav sticky
 	bottom bar fixed
-	body issues
-		narrower width for cell phones
-		left column full height, fixed width
-		right column fixed width or shrinking
-		center column scale with width
 	Body breadcrumbs style, function
 	404 page
 		text
