@@ -1,4 +1,32 @@
-﻿Notes:
+﻿
+Todo
+	rename topnav
+	rename sidenav
+	topnav sticky
+	bottom bar fixed
+	body issues
+		narrower width for cell phones
+		left column full height, fixed width
+		right column fixed width or shrinking
+		center column scale with width
+	Body breadcrumbs style, function
+	404 page
+		text
+		image
+	 image and text by javascript
+	
+	legal page
+
+	footer or header social media links?
+		YouTube
+		Instagram
+		G+
+		facebook?
+		Twitter?
+						
+
+================================================================================
+Notes:
 Why use template?  Why not copy & repurpose?
 Need tool to copy html tags by classnames
 Keep classnames separated for different types of pages
@@ -89,13 +117,13 @@ Contact															| 	Copyright
 
 SKELETON PAGE
 --------------------------------------------------------------------------------	
-                |                           |           |                       
-	logo		| Website name				|	Search	| tagline 												
-				|							|			|						
+                |                                       |                       
+	logo		| Website name				    		| tagline 												
+				|										|						
 --------------------------------------------------------------------------------	
-Professional | Projects | 
+Professional | Projects |                                               Search
 --------------------------------------------------------------------------------	
-Nav1	(fixed) |	Logo >> breadcrumb >> breadcrumb>>															
+Nav1	(fixed) |	Previous page  : Logo >> breadcrumb >> breadcrumb>>															
 Nav1			|---------------------------------------------------------------																
 Nav1			|	Page title															
 Nav1			|	Page subtitle and date															
@@ -107,7 +135,7 @@ Nav1			|
 				|																
 				|																
 				|---------------------------------------------------------------																
-				|	Logo >> breadcrumb >> breadcrumb>>																													
+				|	Previous page  : Logo >> breadcrumb >> breadcrumb>>																														
 --------------------------------------------------------------------------------	
 Contact															| 	Copyright				
 --------------------------------------------------------------------------------	
@@ -157,6 +185,7 @@ Contact															| 	Copyright
 	digital clock - stove not found, microwave not found
 	Ink jet print screen capture and melt in water (no color printers any more lol)
 	404 LOL animation
+	Speed limit sign
 
 
 																		
