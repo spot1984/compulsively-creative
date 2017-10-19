@@ -93,6 +93,12 @@ body
 
 .navigation 
 {
+	/*
+	position: -webkit-sticky; /* Safari */
+	/*
+	position: sticky;
+	top: 0;
+	*/
 	padding: 0px;
 	margin: 0px;
 	border:0px;
@@ -146,15 +152,6 @@ body
     display: block;
 }
 
-/*
-	Vertical navigation tabs
-*/
-.navigationTab
-{
-	font-family: 'Open Sans', sans-serif;
-	background: #333333;
-	float: left;
-}
 
 /*
 	Body
@@ -169,7 +166,7 @@ body
 	margin: 0;
     padding: 10;
 	background-color: #f1f1f1;
-	width: 40 em;
+	width: 10em;
 	height: 100%;
 	float: left;
 }
@@ -203,6 +200,18 @@ body
 .bodyLeft li a:hover:not(.active) {
     background-color: #555;
     color: white;
+}
+/*
+	Vertical navigation tabs
+*/
+.navigationTab
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navigationTab a
+{
+	text-decoration: none;
 }
 
 
@@ -246,7 +255,6 @@ body
 	width: 100%;
 	margin: 0px;
 	border: 0px;
-	
 	overflow-x: hidden;
 	overflow-y: hidden;
 	display: block;
@@ -271,7 +279,6 @@ body
 {
 	background-color: #111;
 }
-
 
 .footerCenter
 {
