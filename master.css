@@ -21,9 +21,9 @@ body
 {
 	width: 100%;
 	height: 48px;
-	margin: 0 px;
-	padding: 0 px;
-	border: 0 px;
+	padding: 8px;
+	border: 0px;
+	margin: 0px;
 	background: #21102C;
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
@@ -48,30 +48,31 @@ body
 .headerCenter h1
 {
 	font-family: 'NTR', 'Open Sans', sans-serif;
-	font-size: 24pt;
+	font-size: 40pt;
 	font-weight: 300;
-	line-height: 48px;
+	line-height: 56px;
 	color: #EEEEEE;
 	margin: 0px;
-	padding: 0px 10px;
+	padding: 0px 16px;
 	float: left;
 }	
 	
 
 .headerRight 
 {
-	margin: 0px;
+	margin-right: 8px;
+	border: 0px;
 	padding: 0px;
 }
 
 .headerRight h2
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14pt;
+	font-size: 18pt;
 	font-weight: 100;
 	color: #aaaaaa;
 	margin: 10px;
-	padding: 4px 0px;
+	padding: 0px 0px;
 	float: right;
 }
 
@@ -81,7 +82,7 @@ body
 .navi
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 9pt;
+	font-size: 12pt;
 	background: #333; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#444, #212); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#444, #212); /* For Opera 11.1 to 12.0 */
@@ -99,9 +100,9 @@ body
 	position: sticky;
 	top: 0;
 	*/
-	padding: 0px;
 	margin: 0px;
 	border:0px;
+	padding: 3px;
 	width: 100%;
 	display: block;
 	float: left;
@@ -118,7 +119,7 @@ body
 }
 
 .navigation li {
-	font-size: 9pt;
+	font-size: 12pt;
 	float: left;
 }
 
@@ -142,12 +143,11 @@ body
 */
 .search
 {
-	height: 15px;
-	
     overflow: hidden;
 	text-decoration: none;
-	margin: 0;
-    padding: 2px 16px;
+    padding: 0px 16px;
+	border: 0px;
+	margin: 0px;
 	text-align: right;
     display: block;
 }
