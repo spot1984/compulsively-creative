@@ -1,70 +1,98 @@
-<head>
-	<link href="master.css" rel="stylesheet" type="text/css" media="all">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta name="index" content="index, follow" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta charset="UTF-8">
 
-	<link href="https://fonts.googleapis.com/css?family=NTR" rel="stylesheet"> 
-</head>
-<body>
-<div class="header">
-	<div class="headerLeft"> 
-		<a class="headerLogo" href="http://homepage.html">
-			<img src="images/scott-logo.png" alt="Scott Logo" height="48" width="48"/>
-		</a>
-	</div>
-	<div class="headerCenter">
-		<h1>
-			D. Scott Williamson
-		</h1>
-	</div>
-	<div class="headerRight">
-		<h2>Compulsively Creative</h2>
-	</div>
-</div>
-<div class="navigation">
-	<ul>
-		<li><a href="professional/index.html">Professional</a></li>
-		<li><a href="projects/index.html">Projects</a></li>
-	</ul>
-	<div class="search">
-		Search goes here
-	</div>
-</div>
-<div class="bodyContainer">
-	<div class="bodyLeft">
-		<ul>
-			<li><a class="navigationList" href="projects/index.html"> Nav1 </a></li>
-			<li><a class="navigationList" href="projects/index.html"> Nav2 </a></li>
-			<li><a class="navigationList" href="projects/index.html"> Nav3 </a></li>
-			<li><a class="navigationList" href="projects/index.html"> Nav4 </a></li>
-		</ul>	
-	</div>
-	<div class="bodyCenter">
-		<div class="breadCrumbLine">
-			<a class="breadCrumb" href="projects/index.html"> Home </a> >>
-			<a class="breadCrumb" href="projects/index.html"> Grandparent </a> >>
-			<a class="breadCrumb" href="projects/index.html"> Parent </a> >>
-			This Page
+		<title>D. Scott Williamson : Compulsively Creative</title>
+		<meta name="author" content="D. Scott Williamson"/>
+		<meta name="description" content="D. Scott Williamson's professional and personal projects"/>
+		<meta name="keywords" content="software, games, 3d printing, science, CNC, maker, electronics, microcontrollers, programing, raspberry pi, art, artwork, hobby">
+
+		<!-- css -->
+		<link href="./master.css" rel="stylesheet" type="text/css" media="all">
+
+		<!-- icon -->
+		<link rel="shortcut icon" type="image/ico" href="./icons/404/favicon.ico" />
+		
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=NTR" rel="stylesheet"> 
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108411993-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-108411993-1');
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="headerLeft"> 
+				<a class="headerLogo" href="http://homepage.html">
+					<img src="images/scott-logo.png" alt="Scott Logo" height="48" width="48"/>
+				</a>
+			</div>
+			<div class="headerCenter">
+				<h1>
+					D. Scott Williamson
+				</h1>
+			</div>
+			<div class="headerRight">
+				<h2>Compulsively Creative</h2>
+			</div>
 		</div>
-		<div class="bodyContent">
-			<h1>404</h1>
-			<h2>I can't find what you're looking for.</h2>
-			<p>
-				Please report problems with this website to tbd@tbd.com<br>
-			</p>
+		<div class="topNavStyle topNav">
+			<ul>
+				<li><a href="professional/professional.html">Professional</a></li>
+				<li><a href="projects/projects.html">Projects</a></li>
+			</ul>
+			<div class="search"> 
+				<div id="contentsearch">
+					<form id="searchForm" name="searchForm" action="http://google.com/search">
+						<input name="q" type="text" value="search" maxlength="200" />
+						<input name="q" type="hidden" value="site:https://spot1984.github.io/compulsively-creative"/>
+						<input name="submit" type="submit" value="Search" />
+					</form>
+				</div>
+			</div>
 		</div>
+	<div class="bodyContainer">
+		<div class="bodyLeft">
+		</div>
+		<div class="bodyCenter">
+			<div class="bodyContent">
+				<div style="float: left; padding-right:40px; padding-bottom: 40px;">
+					<a href="http://homepage.html">
+						<img src="images/SpeedLimit404.jpg" alt="Error: 404 Page not found (speed limit sign style)" height="250" width="auto"/>
+					</a>
+				</div>
+				<h1><i>Not so fast!</i></h1>
+				<h2>Where do you think you're going?</h2>
+				<p>
+					Please report problems with this website to 
+					<a href="mailto:DScottWilliamson@comcast.net?subject=webmaster%20D.%20Scott%20Williamson%20:%20Compulsively%20Creative">webmaster</a>
+				</p>
+				<p>
+					<a href="#" onClick="history.go(-1);return true;">Return to previous page...</a>
+				</p>
+			</div>
+		</div>
+		<div class="bodyRight">
+		</div>			
 	</div>
-	<div class="bodyRight">
-			<p>Nothing is needed in the right column</p>
-	</div>			
-</div>
-<div class="footer">
-	<div class="footerLeft"> 
-		Contact: webmaster@bla.bla
-	</div>
-	<div class="footerCenter"> 
-		&#9400; 2017 D. Scott Williamson
-	</div>
-	<div class="footerRight">
-		Legal
-	</div>
-</div>
-</body>
+	<div class="footer topNavStyle">
+			<div class="footerLeft"> 
+				<a href="mailto:DScottWilliamson@comcast.net?subject=webmaster%20D.%20Scott%20Williamson%20:%20Compulsively%20Creative">Contact: webmaster</a>
+			</div>
+			<div class="footerCenter"> 
+				&#9400; 2017 D. Scott Williamson
+			</div>
+			<div class="footerRight">
+					<a href="legal.html">Legal</a>
+			</div>
+		</div>
+	</body>
+</html>
