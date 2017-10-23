@@ -26,9 +26,9 @@
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 			gtag('config', 'UA-108411993-1');
-		</script>
+		</script>				
 	</head>
-	<body>
+	<body onscroll="myFunction()">
 		<div class="header">
 			<div class="headerLeft"> 
 				<a class="headerLogo" href="http://homepage.html">
@@ -44,7 +44,7 @@
 				<h2>Compulsively Creative</h2>
 			</div>
 		</div>
-		<div class="topNavStyle topNav">
+		<div id="navbar" class="topNavStyle topNav">
 			<ul>
 				<li><a href="professional/professional.html">Professional</a></li>
 				<li><a href="projects/projects.html">Projects</a></li>
@@ -189,5 +189,19 @@
 					<a href="legal.html">Legal</a>
 			</div>
 		</div>
+
+		<!-- sticky navbar -->
+		<script>
+				var navbar = document.getElementById("navbar");
+				var sticky = navbar.offsetTop;
+				
+				function myFunction() {
+				if (window.pageYOffset >= sticky) {
+					navbar.classList.add("sticky")
+				} else {
+					navbar.classList.remove("sticky");
+				}
+				}
+			</script>
 	</body>
 </html>

@@ -127,6 +127,19 @@ body
     background-color: #111;
 }
 
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .bodyContainer {
+	padding-top: 32px;
+}
+
 /*
 	Search bar
 */
@@ -227,6 +240,7 @@ body
 
 .footer 
 {
+	position: bottom;
 	width: 100%;
 	margin: 0px;
 	border: 0px;

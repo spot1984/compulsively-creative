@@ -1,10 +1,10 @@
 ﻿
 Todo
-	rename topnav
-	rename sidenav
-	topnav sticky
 	topnav buttons not full height
 	bottom bar fixed
+	links to homepage in header (icon, name, compulsively creative)
+	compulsively creative random project link
+	favicon filled white
 	Body breadcrumbs style, function
 	404 page
 		text
