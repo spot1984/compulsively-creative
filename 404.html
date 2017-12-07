@@ -7,16 +7,16 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta charset="UTF-8">
 
-		<title>D. Scott Williamson : Compulsively Creative</title>
+		<title>{{ site.title }} {{ page.title }}</title>
 		<meta name="author" content="D. Scott Williamson"/>
-		<meta name="description" content="D. Scott Williamson's professional and personal projects"/>
-		<meta name="keywords" content="software, games, 3d printing, science, CNC, maker, electronics, microcontrollers, programing, raspberry pi, art, artwork, hobby">
+		<meta name="description" content="{{ site.description }}"/>
+		<meta name="keywords" content="{{ site.keywords }}">
 
 		<!-- css -->
-		<link href="/master.css" rel="stylesheet" type="text/css" media="all">
+		<link href="{{ site.baseurl }}/master.css" rel="stylesheet" type="text/css" media="all">
 
 		<!-- icon -->
-		<link rel="shortcut icon" type="image/ico" href="./icons/404/favicon.ico" />
+		<link href="{{ site.baseurl }}/icons/404/favicon.ico" rel="shortcut icon" type="image/ico" />
 		
 		<!-- fonts -->
 		<link href="https://fonts.googleapis.com/css?family=NTR" rel="stylesheet"> 
@@ -40,7 +40,7 @@
 			<div class="bodyContent">
 				<div style="float: left; padding-right:40px; padding-bottom: 40px;">
 					<a href="http://homepage.html">
-						<img src="/images/SpeedLimit404.jpg" alt="Error: 404 Page not found (speed limit sign style)" height="250" width="auto"/>
+						<img src="{{ site.baseurl }}/images/SpeedLimit404.jpg" alt="Error: 404 Page not found (speed limit sign style)" height="250" width="auto"/>
 					</a>
 				</div>
 				<h1><i>Not so fast!</i></h1>
