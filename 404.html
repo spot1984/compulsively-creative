@@ -1,24 +1,61 @@
 ---
-layout: default
 ---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta name="index" content="index, follow" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta charset="UTF-8">
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+		<title>D. Scott Williamson : Compulsively Creative</title>
+		<meta name="author" content="D. Scott Williamson"/>
+		<meta name="description" content="D. Scott Williamson's professional and personal projects"/>
+		<meta name="keywords" content="software, games, 3d printing, science, CNC, maker, electronics, microcontrollers, programing, raspberry pi, art, artwork, hobby">
 
-<div class="container">
-  <h1>404</h1>
+		<!-- css -->
+		<link href="/master.css" rel="stylesheet" type="text/css" media="all">
 
-  <p><strong>Oh poop Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+		<!-- icon -->
+		<link rel="shortcut icon" type="image/ico" href="./icons/404/favicon.ico" />
+		
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=NTR" rel="stylesheet"> 
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108411993-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-108411993-1');
+		</script>
+	</head>
+	<body>
+{% include header.html %}
+{% include navbar.html %}
+	<div class="bodyContainer">
+		<div class="bodyLeft">
+		</div>
+		<div class="bodyCenter">
+			<div class="bodyContent">
+				<div style="float: left; padding-right:40px; padding-bottom: 40px;">
+					<a href="http://homepage.html">
+						<img src="/images/SpeedLimit404.jpg" alt="Error: 404 Page not found (speed limit sign style)" height="250" width="auto"/>
+					</a>
+				</div>
+				<h1><i>Not so fast!</i></h1>
+				<h2>Where do you think you're going?</h2>
+				<p>
+					Please report problems to 
+					<a href="mailto:DScottWilliamson@comcast.net?subject=webmaster%20D.%20Scott%20Williamson%20:%20Compulsively%20Creative">webmaster</a>
+				</p>
+				<p>
+					<a href="#" onClick="history.go(-1);return true;">Return to previous page...</a>
+				</p>
+			</div>
+		</div>
+		<div class="bodyRight">
+		</div>			
+	</div>
+	{% include footer.html %}
+</html>
