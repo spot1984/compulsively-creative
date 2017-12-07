@@ -1,3 +1,7 @@
+# Jekyll configuration file
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Set the destination build location for the site
 # this assumes that the source is in master and the target is in gh-pages
 # and that these dirrectories are side by side
@@ -25,9 +29,6 @@ layout: none
 # in the templates via {{ site.myvariable }}.
 title: "D. Scott Williamson : Compulsively Creative"
 email: spot1984@gmail.com
-#  Write an awesome description for your new site here. You can edit this
-#  line in _config.yml. It will appear in your document head meta (for
-#  Google search results) and in your feed.xml site description.
 description: >- # this means to ignore newlines until "baseurl:"
   D. Scott Williamson's professional and personal projects
 baseurl: "/compulsively-creative" # the subpath of your site, e.g. /blog
@@ -36,25 +37,5 @@ github_username:  spot1984
 #twitter_username: jekyllrb
 keywords: "software, games, 3d printing, science, CNC, maker, electronics, microcontrollers, programing, raspberry pi, art, artwork, hobby"
 
-# Since I am only using Jekyll to composit HTML now and I plan to use
-# Bootstrap 4 for my CSS, I am commenting out the following configuration.
-
-#===============================================================================
-
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Build settings
-#markdown: kramdown
-#theme: minima
-#plugins:
-#  - jekyll-feed
 
 
