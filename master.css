@@ -39,12 +39,12 @@ body
 
 .headerCenter
 {	
-	margin: 0 px;
-	padding: 0 px;
+	margin: 0px;
+	padding: 0px 16px;
 	float: left;
 }
 
-.headerCenter h1
+.headerCenter * 
 {
 	font-family: 'NTR', 'Open Sans', sans-serif;
 	font-size: 40pt;
@@ -52,8 +52,9 @@ body
 	line-height: 56px;
 	color: #EEEEEE;
 	margin: 0px;
-	padding: 0px 16px;
+	padding: 0px 0px;
 	float: left;
+	text-decoration: none;	
 }	
 	
 .headerRight 
@@ -188,15 +189,16 @@ body
     text-decoration: none;
 }
 
-.bodyLeft li a.active {
+.bodyLeft li a:hover:not(:active) {
+    background-color: #555;
+    color: white;
+}
+
+.bodyLeft li a:active {
     background-color: #21102C;
     color: white;
 }
 
-.bodyLeft li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
 /*
 	Vertical navigation tabs
 */
