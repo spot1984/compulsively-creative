@@ -1,7 +1,12 @@
-# DSW set the destination build location for the site
+# Set the destination build location for the site
 # this assumes that the source is in master and the target is in gh-pages
 # and that these dirrectories are side by side
 destination: ../gh-pages
+
+# Exclude the source directory
+exclude: _source
+
+layout: none
 
 # Since I am only using Jekyll to composit HTML now and I plan to use
 # Bootstrap 4 for my CSS, I am commenting out all of the original configuration.
