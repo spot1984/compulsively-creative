@@ -1,3 +1,13 @@
+# DSW set the destination build location for the site
+# this assumes that the source is in master and the target is in gh-pages
+# and that these dirrectories are side by side
+destination: ../gh-pages
+
+# Since I am only using Jekyll to composit HTML now and I plan to use
+# Bootstrap 4 for my CSS, I am commenting out all of the original configuration.
+
+#===============================================================================
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -13,24 +23,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: DSWYour awesome title 
-email: DSW your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  DSW Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
-
+#title: DSWYour awesome title 
+#email: DSWyour-email@example.com
+#description: >- # this means to ignore newlines until "baseurl:"
+#  DSW Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+#github_username:  jekyll
 
 # Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+#markdown: kramdown
+#theme: minima
+#plugins:
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
