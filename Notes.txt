@@ -1,0 +1,26 @@
+ToDo:
+	Read Jekyll on Github
+	Create Jekyll repo
+	Separate source and destination folders
+	Where to keep source materials?
+	Code current pages in Jekyll
+	Break current pages into components and use macros
+	
+	Play with/test bootstrap - mobile first design
+	Integrate bootstrap with Jekyll
+	
+	
+	x11vnc -xkb -noxrecord -noxfixes -noxdamage -display :0 -usepw
+	
+	
+
+Notes
+
+
+
+
+	gem install jekyll bundler
+	jekyll new my-awesome-site
+	cd my-awesome-site
+	bundle exec jekyll serve
+	# => Now browse to http://localhost:4000 
