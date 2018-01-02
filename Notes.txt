@@ -1,8 +1,21 @@
 ToDo:
+	Bootstrap replace my CSS entirely
+		Layout (breaks)
+		Background color
+		Image in grid
+		Font
+		Text color and size
+
+
+
+
+
+
+
 	Fully abstract index.html as much as possible using site. and page. variables and includes
 	Propagate abstractions to other pages
 	Play with/test bootstrap - mobile first design
-	Bootstrap replace my CSS entirely
+	
 	Grayed out navigation button for professional
 	Album for project years
 	Album for each year
