@@ -1,0 +1,349 @@
+/*
+	Document
+*/
+
+
+
+html 
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	
+}
+body 
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	/* background: navy !important;  example of overriding a parameter from bootstrap */
+}
+
+/*
+	Header
+*/
+.header
+{
+	height: 48px;
+	padding: 8px;
+	border: 0px;
+	margin: 0px;
+	background: #21102C;
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.headerLeft
+{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	color:	#EEEEEE;
+	float: left;
+}
+
+.headerCenter
+{	
+	margin: 0px;
+	padding: 0px 16px;
+	float: left;
+}
+
+.headerCenter * 
+{
+	font-family: 'NTR', 'Open Sans', sans-serif;
+	font-size: 40pt;
+	font-weight: 300;
+	line-height: 56px;
+	color: #EEEEEE;
+	margin: 0px;
+	padding: 0px 0px;
+	float: left;
+	text-decoration: none;	
+}	
+	
+.headerRight 
+{
+	margin-right: 8px;
+	border: 0px;
+	padding: 0px;
+}
+
+.headerRight h2
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18pt;
+	font-weight: 100;
+	color: #aaaaaa;
+	margin: 10px;
+	padding: 0px 0px;
+	float: right;
+}
+
+/*
+	Horizontal navigation bar
+*/
+.topNavStyle
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	background: #333; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#444, #212); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#444, #212); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#444, #212); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#444, #212); /* Standard syntax */
+	color: white;
+}
+
+.topNav 
+{
+	margin: 0px;
+	border:0px;
+	padding: 0px;
+	width: 100%;
+	display: block;
+	float: left;
+}
+
+.topNav ul
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	float: left;
+}
+
+.topNav li {
+	font-size: 12pt;
+	float: left;
+}
+
+.topNav a 
+{
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: white;
+    display: block;
+	text-align: center;
+    padding: 3px 16px;
+}
+
+.topNav a:hover {
+    background-color: #111;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .bodyContainer {
+	padding-top: 32px;
+}
+
+/*
+	Search bar
+*/
+.search
+{
+    overflow: hidden;
+	text-decoration: none;
+    padding: 3px 16px 3px 0px;
+	border: 0px;
+	margin: 0px;
+	text-align: right;
+    display: block;
+}
+
+/*
+	Body
+*/
+.bodyContainer
+{
+	margin: 0px;
+	display: table;
+	width: 100%;
+}
+
+.bodyLeft
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	display: table-cell;
+	margin: 0px;
+    padding: 0px;
+	background-color: #f1f1f1;
+	width: 4em;
+}
+
+.bodyLeft ul {
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bodyLeft li a {
+    display: block;
+    color: #000;
+	padding: 3px 1em 3px 1em;
+    text-decoration: none;
+}
+
+.bodyLeft li a:hover:not(:active) {
+    background-color: #555;
+    color: white;
+}
+
+.bodyLeft li a:active {
+    background-color: #21102C;
+    color: white;
+}
+
+/*
+	Vertical navigation tabs
+*/
+.leftNav
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.leftNav a
+{
+	text-decoration: none;
+}
+
+
+.bodyCenter
+{
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 3em;
+	background: white;
+	padding: 0 3em 0 3em;
+	max-width: 600px;
+	display: table-cell;
+}
+
+.bodyRight
+{
+	background-color: #f1f1f1;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	width: 20%;
+	height: 100%;
+	display: table-cell;
+	float: clear;
+}
+
+.breadCrumbLine
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer 
+{
+	position: bottom;
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: block;
+	float: left;
+}
+
+.footerLeft
+{
+	padding: 2px 16px;
+	text-decoration: none;
+	color: white;
+	margin-left: 3em;
+	display: block;
+	float:left
+}
+
+.footerLeft a{
+	text-decoration: none;
+	color: white;
+}
+
+.footerLeft:hover
+{
+	background-color: #111;
+}
+
+.footerCenter
+{
+	padding: 2px 16px;
+	margin-left: 3em;
+	display: block;
+	float: left;
+	color: white;
+}
+
+.footerRight
+{
+	padding: 2px 16px;
+	margin-right: 3em;
+	margin-left: 3em;
+	display: block;
+	float: right;
+}
+
+.footerRight a{
+	text-decoration: none;
+	color: white;
+}
+.footerRight:hover
+{
+	background-color: #111;
+}
+
+/*
+	Misc formatting
+*/
+
+.imageLeft
+{
+    margin: 0 0 15px 20px;
+	padding: 15px;
+	/*
+    width: 120px;
+	border: 1px solid black;
+	*/
+    text-align: center;
+	display: block;
+	float: left;
+}
+
+.imageCenter
+{
+    margin: auto;
+    padding: 15px;
+	/*
+	border: 1px solid black;
+    width: 120px;
+	*/
+    text-align: center;
+	display: block;
+	float: center;
+}
+
+.imageRight
+{
+	float: right;
+    margin: 0 20px 15px 0;
+	padding: 15px;
+	/*
+    width: 120px;
+	border: 1px solid black;
+	*/
+    text-align: center;
+}
+
+
