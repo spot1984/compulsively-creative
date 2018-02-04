@@ -5,17 +5,15 @@ title: ""
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 {% include head-bs.html %}
 <body>
-<div class="container">
-	<div class="row">
-	  <div class="col-md bg-primary">
-		<span class="bg-primary border rounded">[LOGO]</span>
+<div class="container-fluid">
+	<div class="row row-eq-height align-items-center bg-primary">
+	  <div class="col-1-lg ">
+		<!--span class="bg-primary border rounded">[LOGO]</span-->
+		<img src="{{ site.baseurl }}/images/scott-logo.png" class=" rounded mx-auto d-block" alt="Scott Logo" height="48" width="48"/>
 	 </div>
-	  <div class="col-md bg-primary">
-		<span class="text-left">D. Scott Williamson</span>
-	  </div>
-	  <div class="col bg-primary text-right">
-		Compulsively Creative
-	  </div>
+
+	 <div class="col-lg display-1 text-white text-left">D. Scott Williamson</div>
+	  <div class="col-lg h2 text-secondary text-right">Compulsively Creative</div>
 	</div>
 	<div class="row ">
 	  <div class="col bg-primary border rounded">
@@ -45,7 +43,7 @@ title: ""
 			Right
 		</div>
 	</div>
-	<div class="row">
+	<div class="row bg-primary">
 			<div class="col">
 				Contact: webmaster 
 			</div>
@@ -59,46 +57,4 @@ title: ""
   </div>
   {% include bootstrap-scripts.html %}
   </body>
-  end
-<!--
-	<body onscroll="myFunction()">
-        {% include header.html %}
-        {% include navbar.html %}
-
-		<div class="bodyContainer">
-			<div class="bodyLeft">
-			</div>
-
-			<div class="bodyCenter">
-				<div class="bodyContent">
-					<br><h1>Welcome to my collection of personal and professional projects...</h1>
-					<h2>October 27,2017</h2>
-					<p>
-						
-					</p>
-				</div>
-			</div>
-			<div class="bodyRight">
-			</div>			
-		</div>
-		{% include footer.html %}
-
-		<!-- sticky navbar - ->
-		<script>
-			var navbar = document.getElementById("navbar");
-			var sticky = navbar.offsetTop;
-			
-			function myFunction() {
-			if (window.pageYOffset >= sticky) {
-				navbar.classList.add("sticky")
-			} else {
-				navbar.classList.remove("sticky");
-			}
-			}
-		</script>
-
-{% include bootstrap-scripts.html %}
-	</body>
--->
-
 </html>
