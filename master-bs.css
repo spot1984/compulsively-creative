@@ -19,6 +19,12 @@ body
 	/* background: navy !important;  example of overriding a parameter from bootstrap */
 }
 
+/* override Bootstrap display-1 font */
+.display-1
+{
+	font-family: 'NTR', 'Open Sans', sans-serif !important;
+}
+
 /*
 	Header
 */
