@@ -25,6 +25,12 @@ body
 	font-family: 'NTR', 'Open Sans', sans-serif !important;
 }
 
+.logo
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
 /*
 	Header
 */

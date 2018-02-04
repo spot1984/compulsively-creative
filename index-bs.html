@@ -5,16 +5,53 @@ title: ""
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 {% include head-bs.html %}
 <body>
-<div class="container-fluid">
-	<div class="row row-eq-height align-items-center bg-primary">
-	  <div class="col-1-lg ">
+	<div class="container-fluid">
+	<div class="row row-eq-height bg-primary align-items-center justify-content-center ">
+	  <div class="col-1-sm">
 		<!--span class="bg-primary border rounded">[LOGO]</span-->
-		<img src="{{ site.baseurl }}/images/scott-logo.png" class=" rounded mx-auto d-block" alt="Scott Logo" height="48" width="48"/>
+		<img src="{{ site.baseurl }}/images/scott-logo.png" class="m-2 align-center" alt="Scott Logo" height="64" width="64"/>
 	 </div>
 
-	 <div class="col-lg display-1 text-white text-left">D. Scott Williamson</div>
-	  <div class="col-lg h2 text-secondary text-right">Compulsively Creative</div>
+	 <div class="col-lg display-1 text-white text-center text-lg-left ml-0 pl-0 mr-0 pr-0">D. Scott Williamson</div>
+	  <div class="col-lg h2 text-secondary text-center text-lg-right ml-0 pl-0">Compulsively Creative</div>
 	</div>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Dropdown
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+	
 	<div class="row ">
 	  <div class="col bg-primary border rounded">
 		Professional
@@ -44,13 +81,13 @@ title: ""
 		</div>
 	</div>
 	<div class="row bg-primary">
-			<div class="col">
+			<div class="col text-secondary">
 				Contact: webmaster 
 			</div>
-			<div class="col">
+			<div class="col text-white">
 				Ⓒ 2017 D. Scott Williamson 
 			</div>
-			<div class="col">
+			<div class="col text-secondary">
 				Legal
 			</div>
 		</div>
