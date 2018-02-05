@@ -26,11 +26,22 @@ body
 /* gradient for navigation menus */
 .navgradient
 {
-	background: #333; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#444, #212); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#444, #212); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#444, #212); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#444, #212); /* Standard syntax */
+
+	/*background: #333; /* For browsers that do not support gradients */
+    /*background: -webkit-linear-gradient(#444, #212); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(#444, #212); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(#444, #212); /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(#444, #212); /* Standard syntax */
+	
+	background: #444; /* Old browsers */
+	background: -moz-linear-gradient(top,  #444 0%, #212 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444),  color-stop(100%,#212)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #444 0%,#212 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #444 0%,#212 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #444 0%,,#212 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #444 0%,,#212 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444', endColorstr='#212',GradientType=0 ); /* IE6-9 */
+
 }
 
 /*
