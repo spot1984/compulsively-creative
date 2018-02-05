@@ -1,10 +1,24 @@
 ToDo:
 	Bootstrap replace my CSS entirely
-		Layout (breaks)
-		Background color
-		Image in grid
-		Font
-		Text color and size
+		Decompose bootstrap pages into components
+		Background image for header
+		Get bootstrap on local machine (?)
+		use scss
+		Test content
+		content with thumbnails as images
+			captions
+		photo gallery for years
+		Clean out master-bs.css
+		Bootstrap menus and search
+
+	voronoi tiling with gradient background in header background 
+	slow creep in texture js in header background
+
+	Site layout - create tree structure and files
+
+
+
+	
 
 
 
