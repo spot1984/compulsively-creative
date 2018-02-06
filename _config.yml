@@ -34,6 +34,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   D. Scott Williamson's professional and personal projects
 baseurl: "/compulsively-creative" # the subpath of your site, e.g. /blog
 url: "https://spot1984.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permurl: "https://spot1984.github.io" # the base hostname & protocol for your site, e.g. http://example.com that won't be changed when debugging
 github_username:  spot1984
 #twitter_username: jekyllrb
 keywords: "software, games, 3d printing, science, CNC, maker, electronics, microcontrollers, programing, raspberry pi, art, artwork, hobby"
