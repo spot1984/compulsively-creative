@@ -46,7 +46,11 @@ Notes
 
 	Jekyll
 		debug
-			jekyll serve
+			To debug on localhost
+				jekyll serve
+			To debug on local network
+				jekyll serve --host 0.0.0.0
+
 		build for release
 			jekyll build
 
